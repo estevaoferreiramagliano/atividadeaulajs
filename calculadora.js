@@ -26,7 +26,9 @@ function divide(a, b){
     
     return a / b
 }
-
+function processar(a, b, callback) {
+    return callback(a, b);
+}
 try{
     console.log("soma:",soma(5, 6));
     console.log("subtração:",subtracao(20, 6));
